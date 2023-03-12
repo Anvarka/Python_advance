@@ -45,7 +45,10 @@ class WalkerTree(ast.NodeVisitor):
             "Assign": "lightyellow",
             "Compare": "aqua",
             "Call": "lightcoral",
-            "Tuple": "lightslategrey"
+            "Tuple": "lightslategrey",
+            "Return": "limegreen",
+            "If": "mediumpurple",
+            "IfExp": "mediumpurple"
         }
 
     def generic_visit(self, ast_node: ast.AST, value=None) -> Any:
@@ -76,9 +79,6 @@ class WalkerTree(ast.NodeVisitor):
 
     def visit_FunctionDef(self, node: ast.FunctionDef) -> Any:
         return self.generic_visit(node, node.name)
-
-    def visit_Assign(self, node: ast.Assign) -> Any:
-        return self.generic_visit(node)
 
     def build(self) -> pgv.AGraph:
         self.tree.layout(prog='dot')
