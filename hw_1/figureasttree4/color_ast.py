@@ -2,7 +2,8 @@ import ast
 from typing import Any
 import pygraphviz as pgv
 from inspect import getsource
-import fibonacci
+
+from figureasttree4 import fibonacci
 
 
 class Node:
