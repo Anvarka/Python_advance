@@ -12,5 +12,5 @@ RUN cd Python_advance/ && git checkout hw_2
 
 WORKDIR /root/Python_advance/hw_2
 COPY . .
-RUN python latex_generator.py
+# RUN python latex_generator.py
 RUN pdflatex -output-directory artifacts artifacts/latex.tex

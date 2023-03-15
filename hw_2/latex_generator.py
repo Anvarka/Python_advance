@@ -1,5 +1,5 @@
 from typing import List
-import figureast
+import figureasttree
 
 
 def create_row(column_amount):
@@ -41,6 +41,6 @@ def wrapper_image(image):
 if __name__ == '__main__':
     rows = [[1, "cat", 3, 4, 5], [2, 3, 6], ["\$\%", "`g"]]
     image = 'artifacts/ast_tree.png'
-    figureast.get_plot(image)
+    figureasttree.get_plot(image)
     with open('artifacts/latex.tex', 'w') as tex:
         tex.write(wrapper_document(rows, image))
