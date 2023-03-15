@@ -2,7 +2,7 @@ import ast
 from typing import Any
 import pygraphviz as pgv
 from inspect import getsource
-from hw_1 import fibonacci
+import fibonacci
 
 
 class Node:
@@ -92,6 +92,10 @@ def draw_graph(source: str, filename: str) -> None:
     visitor.build().draw(filename)
 
 
-if __name__ == '__main__':
+def get_plot(fname: str) -> None:
     source = getsource(fibonacci)
-    draw_graph(source, 'artifacts/ast_tree.png')
+    draw_graph(source, fname)
+
+
+if __name__ == '__main__':
+    get_plot("../artifacts/ast_tree.png")
