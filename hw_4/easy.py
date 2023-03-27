@@ -35,6 +35,6 @@ def usual(n):
 if __name__ == "__main__":
     n = 100_000
     with open("artifacts/easy/time.txt", "w") as f:
-        f.write(f"Syncronous: {timeit('usual(n)', number=10, globals=globals()) / 10}\n")
-        f.write(f"Threading: {timeit('threading(n)', number=10, globals=globals()) / 10}\n")
-        f.write(f"Process: {timeit('processing(n)', number=10, globals=globals()) / 10}\n")
+        f.write(f"Syncronous: {timeit('usual(n)', number=10, globals=globals()) / 10 * 1000} ms\n")
+        f.write(f"Threading: {timeit('threading(n)', number=10, globals=globals()) / 10 * 1000} ms\n")
+        f.write(f"Process: {timeit('processing(n)', number=10, globals=globals()) / 10 * 1000} ms\n")

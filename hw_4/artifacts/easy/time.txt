@@ -1,3 +1,3 @@
-Syncronous: 1.0794399408
-Threading: 1.0038469768
-Process: 0.25165567069999994
+Syncronous: 1010.7930584 ms
+Threading: 1019.2359703 ms
+Process: 294.2424376999998 ms
