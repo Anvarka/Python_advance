@@ -1,0 +1,27 @@
+01:37:41,694 logger DEBUG Main process: send "Hello FRIEND!!!!" to process A
+01:37:41,694 logger DEBUG A process: get "Hello FRIEND!!!!" from main process
+01:37:41,695 logger DEBUG A process: send "hello friend!!!!" to process B
+01:37:41,695 logger DEBUG B process: get "hello friend!!!!" from process A
+01:37:41,697 logger DEBUG B process: send "uryyb sevraq!!!!" to main process
+01:37:41,697 logger DEBUG Main process: get "Hello FRIEND!!!!" from process B
+01:37:59,663 logger DEBUG Main process: send "Hello, my friend! It is encryption text!" to process A
+01:37:59,664 logger DEBUG A process: get "Hello, my friend! It is encryption text!" from main process
+01:37:59,664 logger DEBUG A process: send "hello, my friend! it is encryption text!" to process B
+01:37:59,664 logger DEBUG B process: get "hello, my friend! it is encryption text!" from process A
+01:37:59,664 logger DEBUG B process: send "uryyb, zl sevraq! vg vf rapelcgvba grkg!" to main process
+01:37:59,664 logger DEBUG Main process: get "Hello, my friend! It is encryption text!" from process B
+01:38:05,80 logger DEBUG Main process: send "uryyb, zl sevraq! vg vf rapelcgvba grkg!" to process A
+01:38:05,81 logger DEBUG A process: get "uryyb, zl sevraq! vg vf rapelcgvba grkg!" from main process
+01:38:05,81 logger DEBUG A process: send "uryyb, zl sevraq! vg vf rapelcgvba grkg!" to process B
+01:38:05,81 logger DEBUG B process: get "uryyb, zl sevraq! vg vf rapelcgvba grkg!" from process A
+01:38:05,81 logger DEBUG B process: send "hello, my friend! it is encryption text!" to main process
+01:38:05,81 logger DEBUG Main process: get "uryyb, zl sevraq! vg vf rapelcgvba grkg!" from process B
+01:38:39,503 logger DEBUG Main process: send "My password 123456. Don't tell anyone!" to process A
+01:38:39,503 logger DEBUG A process: get "My password 123456. Don't tell anyone!" from main process
+01:38:39,504 logger DEBUG A process: send "my password 123456. don't tell anyone!" to process B
+01:38:39,504 logger DEBUG B process: get "my password 123456. don't tell anyone!" from process A
+01:38:39,504 logger DEBUG B process: send "zl cnffjbeq 123456. qba'g gryy nalbar!" to main process
+01:38:39,505 logger DEBUG Main process: get "My password 123456. Don't tell anyone!" from process B
+01:38:43,286 logger DEBUG Main process: kill all process
+01:38:44,509 logger DEBUG killed process A
+01:38:44,510 logger DEBUG killed process B
