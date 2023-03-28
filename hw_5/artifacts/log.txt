@@ -1,8 +1,9 @@
-02:26:18,310 asyncio DEBUG Using selector: KqueueSelector
-02:26:18,310 log_info DEBUG finish to send tasks in queue, wait results
-02:26:18,311 log_info DEBUG Start download image 0
-02:26:18,328 log_info DEBUG Start download image 1
-02:26:18,329 log_info DEBUG Start download image 2
-02:26:18,898 log_info DEBUG Uploaded image 0
-02:26:18,898 log_info DEBUG Uploaded image 2
-02:26:18,946 log_info DEBUG Uploaded image 1
+02:39:09,164 asyncio DEBUG Using selector: KqueueSelector
+02:39:09,165 log_info DEBUG start to send tasks in queue
+02:39:09,165 log_info DEBUG finish to send tasks in queue, wait results
+02:39:09,165 log_info DEBUG Start download image 0
+02:39:09,174 log_info DEBUG Start download image 1
+02:39:09,175 log_info DEBUG Start download image 2
+02:39:09,412 log_info DEBUG Uploaded image 2
+02:39:09,495 log_info DEBUG Uploaded image 0
+02:39:09,496 log_info DEBUG Uploaded image 1
